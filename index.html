@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Otimizações</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.2s;
+    }
+
+    .card a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Painel de Otimizações</h1>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Produtividade</h2>
+    <a href="https://todoist.com" target="_blank">Abrir Todoist</a>
+  </div>
+
+  <div class="card">
+    <h2>Marketing</h2>
+    <a href="https://analytics.google.com" target="_blank">Abrir Google Analytics</a>
+  </div>
+
+  <div class="card">
+    <h2>Financeiro</h2>
+    <a href="https://www.contaazul.com/" target="_blank">Abrir Conta Azul</a>
+  </div>
+
+  <div class="card">
+    <h2>Aprendizado</h2>
+    <a href="https://www.coursera.org/" target="_blank">Abrir Coursera</a>
+  </div>
+
+  <div class="card">
+    <h2>Desenvolvimento</h2>
+    <a href="https://github.com/" target="_blank">Abrir GitHub</a>
+  </div>
+</div>
+
+</body>
+</html>
